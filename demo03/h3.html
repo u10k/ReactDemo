@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<script type="text/babel">
+    var names=[<h1>张三</h1>,<h2>李四</h2>,<h3>王五</h3>]
+    ReactDOM.render(
+    <div>{names}</div>,
+       document.getElementById("box")
+    );
+</script>
+</body>
+</html>
